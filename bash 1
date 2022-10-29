@@ -1,0 +1,126 @@
+alias       alias c="clear"                     اختصار الاوامر ووضعها في متغير 
+            alias a="sudo apt update"
+            
+            unalias c    يلغي الاختصارات
+            alias ls="ls -a" لاظهار الملفات اللمخفية
+            "ls" or \ls  لاعادة استخدام الامر الاصلي قبل الياس
+            echo "alias c='clear'" >>.bashrc   لحفظ الاختصار دائما في ملف علي الهوم          
+            **********************************
+~  الرجوع للهوم
+~+ عرض الملفات الحالية   ls ~+
+
+ps1     export PS1="aadlflvll flfl" تغيير اسم المستخدم والهوست في الترمنال  
+لجعل التصميم ثابت ضعه في ملف .bashrc
+https://www.kirsle.net/wizards/ps1.html  هذا الموقع يساعد في تخصيص الطرفية
+********************************************************
+PROMPT_COMMAND="pwd"  تنفيذ الامر مع اي امر اخر يتم تنفيذه ويمكن وضعه ايضا في ملف .bashrc
+PROMPT_COMMAND="echo ahmad" يكتب اسم بعد كل سطر امر
+unset PROMPT_COMMAND  لالغاء الامر
+*****************************************************
+
+test 1 -eq 2 && echo “true” || echo “false” للاوامر الشرطية
+
+********************************************
+
+
+#############################################################################
+# FLOW CONTROLS
+##############################################################################
+
+
+statement1 && statement2  # and operator
+statement1 || statement2  # or operator
+
+-a                         # and operator inside a test conditional expression
+-o                        # or operator inside a test conditional expression
+
+# STRINGS
+
+str1 == str2               # str1 matches str2
+str1 != str2               # str1 does not match str2
+str1 < str2                # str1 is less than str2 (alphabetically)
+str1 > str2                # str1 is greater than str2 (alphabetically)
+str1 \> str2               # str1 is sorted after str2
+str1 \< str2               # str1 is sorted before str2
+-n str1                    # str1 is not null (has length greater than 0)
+-z str1                    # str1 is null (has length 0)
+
+# FILES
+
+-a file                   # file exists or its compilation is successful
+-d file                   # file exists and is a directory
+-e file                   # file exists; same -a
+-f file                   # file exists and is a regular file (i.e., not a directory or other special type of file)
+-r file                   # you have read permission
+-s file                   # file exists and is not empty
+-w file                   # your have write permission
+-x file                   # you have execute permission on file, or directory search permission if it is a directory
+-N file                   # file was modified since it was last read
+-O file                   # you own file
+-G file                   # file's group ID matches yours (or one of yours, if you are in multiple groups)
+file1 -nt file2           # file1 is newer than file2
+file1 -ot file2           # file1 is older than file2
+
+# NUMBERS
+-lt                       # less than
+-le                       # less than or equal
+-eq                       # equal
+-ge                       # greater than or equal
+-gt                       # greater than
+-ne                       # not equal
+
+if [condition];
+then
+  statements
+elif [condition];
+  then statements...
+else
+  [statements]
+fi
+*****************************************
+for x in {1..10}
+do
+  statements
+done
+***********************************
+for name [in list]
+do
+  statements that can use $name
+done
+************************************************************
+for (( initialisation ; ending condition ; update ))
+do
+  statements...
+done
+******************************************************
+case expression in
+  pattern1 )
+    statements ;;
+  pattern2 )
+    statements ;;
+esac
+***************************************************
+select name [in list]
+do
+  statements that can use $name
+done
+*****************************************************
+while condition; do
+  statements
+done
+****************************************************
+until condition; do
+  statements
+done
+****************************************************
+****************************************************
+***************************************************
+
+            
+            
+            
+            
+            
+            
+            
+            
