@@ -1,3 +1,13 @@
+https://wiki.bash-hackers.org/
+https://learnxinyminutes.com/docs/bash/
+http://mywiki.wooledge.org/BashGuide
+https://devhints.io/bash
+https://www.shellcheck.net/
+https://devdojo.com/bobbyiliev/the-only-bash-scripting-cheat-sheet-that-you-will-ever-need
+
+
+
+
 alias       alias c="clear"                     اختصار الاوامر ووضعها في متغير 
             alias a="sudo apt update"
             
@@ -30,6 +40,7 @@ test 1 -eq 2 && echo “true” || echo “false” للاوامر الشرطي�
 
 statement1 && statement2  # and operator
 statement1 || statement2  # or operator
+!  not
 
 -a                         # and operator inside a test conditional expression
 -o                        # or operator inside a test conditional expression
