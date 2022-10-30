@@ -141,7 +141,7 @@ declare -f          # displays all defined functions in your login session
 
 ***************************************************
 
-            
+   var=$( tr "[:upper:]" "[:lower:]" <<<"$1")      قبول المتغير سواء بحروف كبيرة أو صغيرة           
             
             
             
