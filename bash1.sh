@@ -514,6 +514,10 @@ n<&-       # closes the input from file descriptor n
 ##############################################################################
 # PROCESS HANDLING
 ##############################################################################
+ls ..     #show parent content
+ls /       #show home content
+cd ..       نفس السابقين 
+cd /
 
 
 # To suspend a job, type CTRL+Z while it is running. You can also suspend a job with CTRL+Y.
