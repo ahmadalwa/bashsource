@@ -157,6 +157,11 @@ file1 -ot file2           # file1 is older than file2
 -gt                       # greater than
 -ne                       # not equal
 
+echo 'expr 1 + 2'      لتنفيذ عمليات حسابية ضع expr 
+
+
+
+
 if [condition];
 then
   statements
