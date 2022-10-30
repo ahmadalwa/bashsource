@@ -33,6 +33,80 @@ unset PROMPT_COMMAND  لالغاء الامر
 test 1 -eq 2 && echo “true” || echo “false” للاوامر الشرطية
 
 ********************************************
+file premission 
+*****************************
+To change directory permissions in Linux, use the following:
+chmod +rwx filename to add permissions.
+chmod -rwx directoryname to remove permissions.
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions.
+Note that “r” is for read, “w” is for write, and “x” is for execute.
+
+Numerical
+
+0 = No Permission
+1 = Execute
+2 = Write
+4 = Read
+
+0 = ---
+1 = --x
+2 = -w-
+3 = -wx
+4 = r-
+5 = r-x
+6 = rw-
+7 = rwx
+
+0: (000) No permission.
+1: (001) Execute permission.
+2: (010) Write permission.
+3: (011) Write and execute permissions.
+4: (100) Read permission.
+5: (101) Read and execute permissions.
+6: (110) Read and write permissions.
+7: (111) Read, write, and execute permissions.
+
+
+chmod 777 foldername
+***********************************
+
+chmod [reference][operator][mode] file... 
+
+Reference   Class     Description
+u          owner      file's owner
+
+g          group      users who are members of
+                      the file's group
+
+o          others     users who are neither the
+                      file's owner nor members of 
+                      the file's group
+
+a          all       All three of the above, same as ugo
+
+Operator  Description
++         Adds the specified modes to the
+          specified classes
+
+-         Removes the specified modes from 
+          the specified classes
+
+=         The modes specified are to be made
+          the exact modes for the specified 
+          classes
+          
+          
+r       Permission to read the file.
+w       Permission to write (or delete) the file.
+x       Permission to execute the file, or, in
+        the case of a directory, search it.
+        
+BEFORE: -rw-rw-r--  user  user  file
+
+COMMAND: chmod u=r assgn1_client.c
+
+AFTER: -r--rw-r--  user   user   file
 
 
 #############################################################################
@@ -91,6 +165,25 @@ else
   [statements]
 fi
 *****************************************
+array and loop
+##########################################
+myArray=("cat" "dog" "mouse" "frog)
+
+for str in ${myArray[@]}; do
+  echo $str
+done
+*********************************
+
+declare -a sport=(
+[0]=football
+[1]=cricket
+[2]=hockey
+[3]=basketball
+)
+
+**************************
+
+
 array=(1 2 4 8 16 32 64 128)
 
 for x in {1..10}
