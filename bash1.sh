@@ -395,7 +395,10 @@ time <command>           # report time consumed by command execution
 ##############################################################################
 # VARIABLES
 ##############################################################################
-
+set var1 var var3 
+$1          #var1
+$2          #var2
+$3          #var3
 
 varname=value                # defines a variable
 varname=value command        # defines a variable to be in the environment of a particular subprocess
