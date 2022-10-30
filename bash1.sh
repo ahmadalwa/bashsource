@@ -326,6 +326,7 @@ head -y lines.txt | tail +x   # want to display all the lines from x to y. This 
 sed 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value to std output the character after s (/) is the delimeter 
 sed -i 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value in place
 echo "this" | sed 's/is/at/g' # replace pattern from input stream with replacement value
+echo 'echo Hello World' >> my-script.sh يطبع وينشء ملف 
 
 ##############################################################################
 # DIRECTORY COMMANDS
