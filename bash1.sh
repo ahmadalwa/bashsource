@@ -7,6 +7,7 @@ https://devdojo.com/bobbyiliev/the-only-bash-scripting-cheat-sheet-that-you-will
 https://www.w3schools.io/terminal/bash-variables/
 https://learnxinyminutes.com/docs/bash/
 https://ss64.com/bash/
+http://z.github.io/ps1-o-matic/#/user-BRed/at-Black/host-NC/colon-NC/wd-Red/dollar-NC/text_output-Yellow
 
 
 
