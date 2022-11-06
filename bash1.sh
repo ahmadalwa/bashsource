@@ -8,6 +8,12 @@ https://www.w3schools.io/terminal/bash-variables/
 https://learnxinyminutes.com/docs/bash/
 https://ss64.com/bash/
 http://z.github.io/ps1-o-matic/#/user-BRed/at-Black/host-NC/colon-NC/wd-Red/dollar-NC/text_output-Yellow
+###################################################################################################
+directory managment * file managment *linking file * premission * process managment * searching command 
+####################################################################################################
+https://www.geeksforgeeks.org/process-management-in-linux/
+https://www.educba.com/linux-process-management/
+https://www.digitalocean.com/community/tutorials/process-management-in-linux
 
 
 
