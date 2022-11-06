@@ -8,12 +8,51 @@ https://www.w3schools.io/terminal/bash-variables/
 https://learnxinyminutes.com/docs/bash/
 https://ss64.com/bash/
 http://z.github.io/ps1-o-matic/#/user-BRed/at-Black/host-NC/colon-NC/wd-Red/dollar-NC/text_output-Yellow
+https://www.shell-tips.com/bash/#gsc.tab=0
+https://ryanstutorials.net/
 ###################################################################################################
 directory managment * file managment *linking file * premission * process managment * searching command 
 ####################################################################################################
 https://www.geeksforgeeks.org/process-management-in-linux/
 https://www.educba.com/linux-process-management/
 https://www.digitalocean.com/community/tutorials/process-management-in-linux
+
+
+
+
+##############################
+Bash Math Commands and Methods
+##############################
+Arithmetic Expansion
+
+$((expression))
+echo $((2+3))
+
+***********************
+awk Command
+awk 'BEGIN { x = 2; y = 3; print "x + y = "(x+y) }'
+
+dc Command
+echo "2 3 + p" | dc
+
+declare Command
+declare -i x=2 y=3 z=x+y
+echo $x + $y = $z
+
+expr Command
+expr 2 + 3
+
+factor Command
+factor 100
+
+let Command
+let x=2+3 | echo $x
+
+test Command
+test 2 -gt 3; echo $?
+
+
+##############################
 
 
 
