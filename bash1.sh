@@ -224,6 +224,8 @@ for str in ${myArray[@]}; do
   echo $str
 done
 *********************************
+declare -f اسم الدالة 
+
 
 declare -a sport=(
 [0]=football
