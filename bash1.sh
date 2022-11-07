@@ -556,7 +556,10 @@ n<&m       # file descriptor n is made to be a copy of the input file descriptor
 n>&-       # closes the ouput from file descriptor n
 n<&-       # closes the input from file descriptor n
 
-|tee <file># output command to both terminal and a file (-a to append to file)
+|tee <file># output command to both terminal and a file 
+مثل >
+|tee -a <file> (-a to append to file)
+مثل >>
 
 
 ##############################################################################
