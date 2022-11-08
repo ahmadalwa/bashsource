@@ -350,6 +350,10 @@ cat -n <filename>             # shows number of lines
 nl <file.sh>                  # shows number of lines in file
 cat filename1 > filename2     # Copy filename1 to filename2
 cat filename1 >> filename2    # merge two files texts together 
+cat file1 file2 >> file3            # merge two files texts together in new file
+
+split [options] name_of_file  prefix_for_new_files    #split commant 
+split -l 4 file1.txt split_file     # cut first 4 line and put them in new split file
 any_command > <filename>      # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
 more <filename>               # shows the first part of a file (move with space and type q to quit)
 head <filename>               # outputs the first lines of file (default: 10 lines)
