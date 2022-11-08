@@ -10,6 +10,9 @@ https://ss64.com/bash/
 http://z.github.io/ps1-o-matic/#/user-BRed/at-Black/host-NC/colon-NC/wd-Red/dollar-NC/text_output-Yellow
 https://www.shell-tips.com/bash/#gsc.tab=0
 https://ryanstutorials.net/
+https://www.geeksforgeeks.org/top-10-highest-paying-it-certifications-in-2020/?ref=lbp
+https://www.javatpoint.com/linux-tutorial
+https://www.javatpoint.com/bash-substring
 ###################################################################################################
 directory managment * file managment *linking file * premission * process managment * searching command 
 ####################################################################################################
@@ -359,6 +362,7 @@ find . -name <name> <type>    # searches for a file or a directory in the curren
 diff <filename1> <filename2>  # compares files, and shows where they differ
 wc <filename>                 # tells you how many lines, words and characters there are in a file. Use -lwc (lines, word, character) to ouput only 1 of those informations
 sort <filename>               # sorts the contents of a text file line by line in alphabetical order, use -n for numeric sort and -r for reversing order.
+cmp 
 sort -t -k <filename>         # sorts the contents on specific sort key field starting from 1, using the field separator t.
 rev                           # reverse string characters (hello becomes olleh)
 chmod -options <filename>     # lets you change the read, write, and execute permissions on your files (more infos: SUID, GUID)
