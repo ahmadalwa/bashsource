@@ -356,8 +356,11 @@ split [options] name_of_file  prefix_for_new_files    #split commant
 split -l 4 file1.txt split_file     # cut first 4 line and put them in new split file
 any_command > <filename>      # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
 more <filename>               # shows the first part of a file (move with space and type q to quit)
+less <filename>       #show file
 head <filename>               # outputs the first lines of file (default: 10 lines)
+
 tail <filename>               # outputs the last lines of file (useful with -f option) (default: 10 lines)
+tail -f <filenamme>           #live view of file to show change of it
 vim <filename>                # opens a file in VIM (VI iMproved) text editor, will create it if it doesn't exist
 mv <filename1> <dest>         # moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
 cp <filename1> <dest>         # copies a file
