@@ -386,6 +386,10 @@ grep -r <pattern> <dir>       # search recursively for pattern in directory
 head -n file_name | tail +n   # Print nth line from file.
 head -y lines.txt | tail +x   # want to display all the lines from x to y. This includes the xth and yth lines.
 
+
+
+cut OPTION... [FILE]...             #cutting out the sections from each line of files and writing the result to standard output
+
 sed 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value to std output the character after s (/) is the delimeter 
 sed -i 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value in place
 echo "this" | sed 's/is/at/g' # replace pattern from input stream with replacement value
