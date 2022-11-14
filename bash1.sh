@@ -751,9 +751,10 @@ printf "${Red} This is red \n"
 
 ############################################
 rsenc     vs    cp    vs   scp      
-backuppc
-systemd systemctl
-vagrant
+backuppc             
+systemd systemctl      #creat service
+vagrant         #control vm
+smartmontools      #hard health chick
             
             
             
