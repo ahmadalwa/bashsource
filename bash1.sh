@@ -278,7 +278,11 @@ done
 ****************************************************
 FUNCTIONS
 ##############################################################################
-
+$0
+$1
+$@
+$*
+$?
 
 # The function refers to passed arguments by position (as if they were positional parameters), that is, $1, $2, and so forth.
 # $@ is equal to "$1" "$2"... "$N", where N is the number of positional parameters. $# holds the number of positional parameters.
