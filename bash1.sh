@@ -755,6 +755,7 @@ backuppc
 systemd systemctl      #creat service
 vagrant         #control vm
 smartmontools      #hard health chick
+zsh   
             
             
             
