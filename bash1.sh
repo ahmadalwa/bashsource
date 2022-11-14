@@ -758,6 +758,7 @@ smartmontools      #hard health chick
 zsh 
 
 tr      #generate random 
+urandom
             
             
             
