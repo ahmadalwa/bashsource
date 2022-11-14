@@ -22,6 +22,21 @@ https://www.digitalocean.com/community/tutorials/process-management-in-linux
 
 
 
+1 cd, pwd, ls, man, which
+2 mkdir, rmdir, rm, cp, mv
+3 touch, cat, echo, file, ln            >>>> ||  stdin, stdout, stderr, piping
+4 locate, find, grep
+more, less, head, tail
+nano & vim
+tar, zip, unzip, 7z, gzip, gunzip
+history date alias
+sudo, chmod, chown
+useradd, passwd, su, userdel
+ifconfig, ping, netcat 
+telnet, ssh, scp 
+awk, sed, tr, sort, cut
+
+
 
 ##############################
 Bash Math Commands and Methods
