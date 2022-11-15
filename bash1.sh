@@ -35,6 +35,8 @@ useradd, passwd, su, userdel
 ifconfig, ping, netcat 
 telnet, ssh, scp 
 awk, sed, tr, sort, cut
+fsck e2fsck fdisk cfdisk mkfs tun e2fs parted gparted
+
 
 
 
