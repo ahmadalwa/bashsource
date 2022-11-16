@@ -417,6 +417,8 @@ sed -i 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with r
 echo "this" | sed 's/is/at/g' # replace pattern from input stream with replacement value
 echo 'echo Hello World' >> my-script.sh يطبع وينشء ملف 
 
+cpio        #stands for “copy in, copy out“. It is used for processing the archive files like *.cpio or *.tar. This command can copy files to and from archives.
+
 ##############################################################################
 # DIRECTORY COMMANDS
 ##############################################################################
