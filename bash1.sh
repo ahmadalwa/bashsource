@@ -22,6 +22,10 @@ https://www.digitalocean.com/community/tutorials/process-management-in-linux
 
 
 
+
+SCP Linux Command  #copy file and folder betwen 2 hosts local or cloud 
+
+
 1 cd, pwd, ls, man, which
 2 mkdir, rmdir, rm, cp, mv
 3 touch, cat, echo, file, ln            >>>> ||  stdin, stdout, stderr, piping
